@@ -1,0 +1,29 @@
+.sponcer{
+    background-color: #e7d7c2;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1310px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo-container a{
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.logo-container a:hover{
+    color: #006241;
+    transition: all .42s ease;
+    transform: scale(1.1);
+}
+.logo-container i{
+    font-size: 2.5rem;
+    vertical-align: -5px;
+}

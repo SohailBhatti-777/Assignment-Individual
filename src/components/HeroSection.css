@@ -1,0 +1,35 @@
+.hero-section {
+  background: url('/public/highschool4.jpg') no-repeat center center/cover;
+  /* position: absolute; */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+  text-align: center;
+}
+
+.hero-content h1 {
+  /* <img src="./"; */
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.read-more {
+  border: 2px solid #006241;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.read-more:hover {
+  background-color: #006241;
+  color: #fff;
+}

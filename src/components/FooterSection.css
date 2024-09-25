@@ -1,0 +1,124 @@
+footer {
+    background-color: #f8f8f8; 
+    color: #555;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px 20px;
+}
+
+.footer-section h2, .footer-section h3 {
+    color: #006241; 
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.footer-section p{
+    margin-left: 8px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.footer-section p span{
+    color: #006241;
+    font-weight: 750;
+}
+.end-e:hover{
+    color: #006241;
+    transition: all .42s ease;
+    cursor: pointer;
+}
+.end-p:hover{
+    color: #006241;
+    transition: all .42s ease;
+    cursor: pointer;
+}
+.end-l:hover{
+    color: #006241;
+    transition: all .42s ease;
+    cursor: pointer;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.footer-section ul li a:hover {
+    color: #006241;
+    transition: all .42s ease;
+
+
+}
+.social-icons{
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: white;
+    margin-left: 5px;
+}
+
+
+.footer-bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    max-width: 1800px;
+}
+
+.footer-bottom a img {
+    height: 40px;
+    border-radius: 4px;
+    padding-right: 10px;
+}
+.footer-bottom a img:hover{
+    transform: scale(1.1);
+    transition: all .42s ease;
+}
+
+.bottom-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.bottom-links a:hover {
+    color: #006241;
+    transition: all .42s ease;
+}
+.b1, .b2, .b3{
+    padding-left: 25px;
+}
+.img-google-app{
+    display: flex;
+}

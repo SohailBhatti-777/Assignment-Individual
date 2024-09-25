@@ -1,0 +1,53 @@
+.features-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #e7d7c2;
+}
+
+.feature {
+    text-align: start;
+    flex: 1;
+    margin: 0 15px;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding-bottom: 40px;
+}
+
+.feature .icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: black;
+}
+
+.feature p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 15px 0;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.feature a {
+    display: inline-block;
+    color: #006241;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #006241;
+    padding: 12px 25px;
+    transition: all .42s ease;
+    border-radius: 25px;
+    text-decoration: none;   
+}
+.feature a:hover{
+    background-color: #006241;
+    color:white;
+}
+.feature i{
+    vertical-align: middle;
+}
